@@ -24,3 +24,10 @@ A Bash script to migrate GitHub repositories, stars, followers, and gists betwee
 ```bash
 git clone https://github.com/khanh779-9/Github_Toolkit.git
 cd Github_Toolkit
+chmod +x Github_Toolkit.sh
+```
+
+## Usage
+```bash
+./Github_Toolkit.sh
+```
