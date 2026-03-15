@@ -24,6 +24,7 @@ RED='\033[0;31m'
 GREEN='\033[0;32m'
 YELLOW='\033[1;33m'
 CYAN='\033[0;36m'
+BLUE='\033[0;34m'
 NC='\033[0m' # reset color
 
 # Data folder relative to script location
@@ -191,7 +192,7 @@ while true; do
     echo -e "  ${GREEN} 7)${NC}  Export gists"
     echo -e "  ${GREEN} 8)${NC}  Import gists"
     
-    if [ "$DRY_RUN" = "ON" ]; then
+    if [ "$DRY_RUN" = "true" ]; then
         STATUS_COLOR=$GREEN
     else
         STATUS_COLOR=$RED
